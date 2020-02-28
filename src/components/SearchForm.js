@@ -24,14 +24,14 @@ export default function SearchForm(props) {
      <form onSubmit={submitForm}>
        <label htmlFor='Name'>Name</label>
        <input
-       id='name'
        type='text'
-       name='name'
        onChange={handleChanges}
-       value={name}
+       value={props.name}
+       name='name'
+      //  autoComplete="off"
        />
        <button type='submit'>Search</button>
      </form>
     </section>
-  );
+  )
 }

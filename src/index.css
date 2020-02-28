@@ -66,3 +66,17 @@ header h1 {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+.loc-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* width: 150px;
+  height: 250px;
+  margin: 20px;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 10%;
+  border: 1px solid seagreen;
+  padding: 15px;
+  background-color: aquamarine; */
+
+}
