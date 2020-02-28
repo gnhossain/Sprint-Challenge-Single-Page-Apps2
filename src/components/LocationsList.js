@@ -26,7 +26,7 @@ const [data, setData] = useState([]);
       <SearchForm location={location} setLocation={setLocation}/>
       <div className='loc-list'>
         {data.map(item => {
-        return <LocationCard name={item.name} type={item.type}/>;
+        return <LocationCard name={item.name} type={item.type} />;
       })}
       </div>
       

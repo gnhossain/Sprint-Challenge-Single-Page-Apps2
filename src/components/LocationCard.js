@@ -14,8 +14,8 @@ export default function LocationCard(props) {
     <CardBody>
       <CardTitle>Name:{props.name}</CardTitle>
       <CardSubtitle>Type:{props.type}</CardSubtitle>
-      {/* <CardText>So</CardText>
-      <Button>Button</Button> */}
+      {/* <CardText>URL:{props.url}</CardText> */}
+      {/* <Button>Button</Button> */}
     </CardBody>
   </Card>
 </div>
