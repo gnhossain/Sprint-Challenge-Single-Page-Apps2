@@ -37,3 +37,32 @@ main {
 header h1 {
   text-align: center;
 }
+* {
+  box-sizing: border-box;
+}
+.welcome-page{
+  background-color: aquamarine;
+}
+.main-img{
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 10%;
+  border: 1px solid seagreen;
+  padding: 15px;
+  background-color: aquamarine;
+}
+.card{
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 10%;
+  border: 1px solid seagreen;
+  padding: 15px;
+  background-color: aquamarine;
+}
+
+.card-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

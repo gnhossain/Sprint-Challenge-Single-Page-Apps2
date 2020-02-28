@@ -16,7 +16,7 @@ export default function SearchForm(props) {
 
     console.log(characters.filter(character => character.name === name));
     props.setCharacters(characters.filter(character => character.name === name));
-  }
+  };
   return (
     <section className="search-form">
      {/* // Add a search form here */}
