@@ -1,6 +1,5 @@
 import React from "react";
 
-import React from 'react';
 import {
   Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button
