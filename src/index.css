@@ -39,26 +39,30 @@ header h1 {
 }
 * {
   box-sizing: border-box;
+  background-color:lightyellow;
 }
 .welcome-page{
-  background-color: aquamarine;
+  background-color: lightpink;
 }
 .main-img{
-  box-shadow: 10px 10px 5px grey;
-  border-radius: 10%;
-  border: 1px solid seagreen;
-  padding: 15px;
-  background-color: aquamarine;
-}
-.card{
-  width: 250px;
-  height: 350px;
+  width:95%;
+  height: 450px;
   margin: 20px;
   box-shadow: 10px 10px 5px grey;
   border-radius: 10%;
   border: 1px solid seagreen;
   padding: 15px;
-  background-color: aquamarine;
+  background-color:lightpink;
+}
+.card{
+  width: 250px;
+  height: 320px;
+  margin: 20px;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 5%;
+  border: 1px solid seagreen;
+  padding: 15px;
+  background-color:lightpink;
 }
 
 .card-list{

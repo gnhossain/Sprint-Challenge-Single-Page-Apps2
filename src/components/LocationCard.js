@@ -13,7 +13,7 @@ export default function LocationCard(props) {
     {/* <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" /> */}
     <CardBody>
       <CardTitle>Location:{props.name}</CardTitle>
-      <CardSubtitle>Type:{props.type}</CardSubtitle>
+      <CardSubtitle>Name:{props.type}</CardSubtitle>
       {/* <CardText>URL:{props.url}</CardText> */}
       {/* <Button>Button</Button> */}
     </CardBody>
